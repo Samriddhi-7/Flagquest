@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#d7d7d7"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".NextActivity">
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textSize="66sp"
+        android:textStyle="bold"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/playAgainButton"
+        android:layout_width="300dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="8dp"
+        android:background="#d7d7d7"
+        android:backgroundTint="@color/grey"
+        android:text="Play Again"
+        android:textColor="@color/black"
+
+        app:cornerRadius="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/quitButton"
+        android:layout_width="300dp"
+        android:layout_height="61dp"
+        android:background="#d7d7d7"
+        android:text="Quit"
+        android:layout_marginTop="2dp"
+        app:cornerRadius="10dp"
+        android:backgroundTint="@color/grey"
+        android:textColor="@color/black"
+    />
+
+    </LinearLayout>
